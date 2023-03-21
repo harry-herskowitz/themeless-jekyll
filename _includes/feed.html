@@ -1,0 +1,6 @@
+<div class="card-container">
+  {% for post in paginator.posts%}
+    {% include postcard.html post=post %}
+  {% endfor %}
+</div>
+{%include paginator.html%}

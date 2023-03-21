@@ -1,0 +1,6 @@
+<div id="recommended" class="card-container">
+  {% assign posts = site.posts | where_exp:"post","post.url != page.url" %} {%
+  for post in posts limit:2%}
+    {% include postcard.html post=post %}
+  {% endfor %}
+</div>
