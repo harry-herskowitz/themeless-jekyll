@@ -1,1 +1,1 @@
-My personal blog made with custom Jekyll theme: [halfmoon-jekyll](https://github.com/harry-herskowitz/halfmoon-jekyll)
+A Jekyll site with no theme and a small css file.
